@@ -1,9 +1,8 @@
-/* Open when someone clicks on the span element */
+// Overlay Nav Menu Functionality
 function openNav() {
-  document.getElementById("myNav").style.width = "100%";
+  document.getElementById("Nav").style.width = "100%";
 }
 
-/* Close when someone clicks on the "x" symbol inside the overlay */
 function closeNav() {
-  document.getElementById("myNav").style.width = "0%";
+  document.getElementById("Nav").style.width = "0%";
 }
