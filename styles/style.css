@@ -1,11 +1,33 @@
 .parallax {
   background-image: url("./schoolview.JPG");
-  vertical-align: top;
-  height: 800px;
+  height: 900px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  color: #B48;
+  text-align: center;
+}
+
+.banner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #B48;
+}
+
+.splash-name {
+  font-size: 80px;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+.splash-title {
+  font-size: 50px;
 }
 
 /* overlay styling */
@@ -64,7 +86,7 @@
 }
 
 #bars {
-color: #986172;
+color: #B48;
 font-size: 40px;
 position: fixed;
 z-index: 1;
@@ -75,20 +97,12 @@ right: 0;
   color: hotpink;
 }
 
-header {
-color: #a36f7f;
-text-align: center;
 
+
+html, body, {
+    padding: 0;
+    margin: 0;
 }
-
-/* .splash-name {
-  font-size: 100px;
-}
-
-.splash-title {
-  font-size: 70px;
-} */
-
 
 body {
 background: #ffffff;

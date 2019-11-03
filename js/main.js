@@ -6,3 +6,7 @@ function openNav() {
 function closeNav() {
   document.getElementById("Nav").style.width = "0%";
 }
+
+// function toggleNav() {
+//   document.getElementById("Nav").style.width = "100%" ? "0%";
+// }

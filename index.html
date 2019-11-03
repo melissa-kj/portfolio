@@ -1,40 +1,50 @@
 <!DOCTYPE html>
+
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel='icon' href='favicon.ico' type='image/x-icon'/ >
     <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
 <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <title>Melissa K. Jeremie</title>
   </head>
 
-<div id="Nav" class="overlay">
-
-  <!--nav menu icon-->
-  <span onClick="openNav()"><i class="fas fa-bars" id="bars"></i></span>
-
-  <!--nav overlay close button-->
-  <a href="javascript:void(0)" class="closebtn" onClick="closeNav()">&times;</a>
-
-  <!--nav overlay content-->
-    <div class="overlay-content">
-      <a href="#about" onClick="closeNav()">About</a>
-      <a href="#work"onClick="closeNav()">Work</a>
-      <a href="#skills"onClick="closeNav()">Skills</a>
-      <a href="#contact"onClick="closeNav()">Contact</a>
-    </div>
-  </div>
-
 
 <header>
-  <div class="parallax">
-    <h1 class="splash-name">Melissa Jeremie</h1>
-    <h3 class="splash-title">Full-Stack Developer</h3>
-  </div>
+  <nav>
+    <div id="Nav" class="overlay">
+
+      <!--nav menu icon-->
+      <span onClick="openNav()"><i class="fas fa-bars" id="bars"></i></span>
+
+      <!--nav overlay close button-->
+      <a href="javascript:void(0)" class="closebtn" onClick="closeNav()">&times;</a>
+
+      <!--nav overlay content-->
+        <div class="overlay-content">
+          <a href="#about" onClick="closeNav()">About</a>
+          <a href="#work"onClick="closeNav()">Work</a>
+          <a href="#skills"onClick="closeNav()">Skills</a>
+          <a href="#contact"onClick="closeNav()">Contact</a>
+        </div>
+      </div>
+    </nav>
 </header>
 
 <body style="">
+
+
+
+  <div class="parallax">
+
+    <div class="banner">
+      <h1 class="splash-name">Melissa Jeremie</h1>
+      <h3 class="splash-title">Full-Stack Developer</h3>
+    </div>
+
+  </div>
 
 <div id="home" style="font-size: 70px;">
 hello there. <br>i'm <span class="name">melissa jeremie</span>,<br> a <span class="title">web developer</span> in <br> new york city. take a <br>look at some of my <br> <a href="#work" class="scroll">work</a>, read a bit  <a href="#about" class="scroll">about</a> me, <br> and feel free to <a href="#contact" class="scroll">reach out.</a>
@@ -49,21 +59,40 @@ hello there. <br>i'm <span class="name">melissa jeremie</span>,<br> a <span clas
 
 <div id="work">
 
-<h2>projects will go here</h2>
+<h2>A Few of My Projects </h2>
+<div class="projects">
+
+</div>
 
 
 </div>
 
 <div id="skills">
 
-<h2>skills icons here</h2>
+<h2>Skills</h2>
+<div class="skills-icons">
+  <i class="fab fa-js-square">JavaScript</i>
+  <i class="fab fa-java">Java</i>
+  <i class="fab fa-react">React</i>
+  <i class="fab fa-docker">Docker</i>
+  <i class="fab fa-aws">Amazon Web Services</i>
+  <i class="fab fa-html5">HTML</i>
+  <i class="fab fa-css3">CSS</i>
+
+
+</div>
 
 
 </div>
 
 <div id="contact">
 
-<h2>contact me will go here</h2>
+<h2>Contact</h2>
+<div class="contact-icons">
+  <i class="fab fa-linkedin">LinkedIn</i>
+  <i class="fab fa-github">GitHub</i>
+  <i class="far fa-envelope">Email Me</i>
+</div>
 
 
 </div>
