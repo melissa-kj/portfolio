@@ -1,22 +1,11 @@
-.parallax {
+.splash {
   background-image: url("./Header5.png");
   height: 900px;
+  width: auto;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: #B48;
-  text-align: center;
-}
-
-.parallax h1 {
-  font-size: 80px;
-line-height: 600px;
-font-family: 'Monofett', cursive;
-}
-
-.splash-title {
-  font-size: 50px;
 }
 
 /* overlay styling */
@@ -49,7 +38,7 @@ font-family: 'Monofett', cursive;
   font-weight: bold;
   color: #818181;
   display: block;
-  transition: 0.35s; /* Transition effects on hover (color) */
+  transition: 0.25s; /* Transition effects on hover (color) */
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -75,7 +64,7 @@ font-family: 'Monofett', cursive;
 }
 
 #bars {
-color: #B48;
+color: #bb4488;
 font-size: 40px;
 position: fixed;
 z-index: 1;
