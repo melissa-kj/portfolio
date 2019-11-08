@@ -1,9 +1,9 @@
 .splash {
-  background-image: url("./PortfolioSplash.png");
+  background: url("./PortfolioSplash.png");
   height: 900px;
   width: auto;
   background-attachment: fixed;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -115,7 +115,7 @@ height: 175px;
 }
 
 #about {
-height: 175px;
+
 }
 
 #contact {
@@ -123,5 +123,5 @@ height: 175px;
 }
 
 .skills-icons .contact-icons i {
-  font-size: 35px;
+  font-size: 350px;
 }
