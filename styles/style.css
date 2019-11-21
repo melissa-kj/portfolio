@@ -78,12 +78,10 @@ right: 0;
 .fab, .far {
   color: #bb4488;
   font-size: 40px;
-  /* position: fixed;
-  z-index: 1;
-  right: 0; */
 }
+
 .skills-icons {
-  display: inline-block;
+
 }
 
 
@@ -98,30 +96,13 @@ font-family: 'Montserrat', sans-serif;
 font-weight: 100;
 }
 
-.name {
-  font-size: 75px;
-  font-weight: 300;
-  color: gray;
-}
-
-.scroll {
-  text-decoration: none;
-  color: #986172;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 100;
-}
-
-.scroll:hover {
-  color: hotpink;
-  font-weight: bold;
-}
 
 #work {
-height: 175px;
+/* height: 175px; */
 }
 
 #skills {
-height: 175px;
+
 }
 
 #about {
@@ -129,7 +110,7 @@ height: 175px;
 }
 
 #contact {
-height: 175px;
+
 }
 
 /* styling for project grid */
